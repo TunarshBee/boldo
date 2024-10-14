@@ -3,8 +3,8 @@ import { Button } from '../../shared';
 
 export function Enterprise() {
   return (
-    <section className="w-full container-px mb-[84px]">
-      <div className="container-w mx-auto bg-primary bg-[url('/bg2.png')] bg-contain bg-[right_-150px_top_-150px] bg-no-repeat py-[40px] md:py-[72px] rounded-[12px] flex flex-col items-center gap-[48px]">
+    <section className="w-full container-side-spacing mb-[84px]">
+      <div className="container mx-auto bg-primary bg-[url('/bg2.png')] bg-contain bg-[right_-150px_top_-150px] bg-no-repeat py-[40px] md:py-[72px] rounded-[12px] flex flex-col items-center gap-[48px]">
         <h3 className="max-w-[716px] text-center text-white text-[35px] md:text-[48px] leading-normal md:leading-[72px] font-manrope font-normal">
           An enterprise template to ramp up your company website
         </h3>
@@ -16,8 +16,8 @@ export function Enterprise() {
           <Button
             type="submit"
             text="Start now"
-            bgColor="#65E4A3"
             color="#000"
+            className='bg-success'
           />
         </form>
       </div>

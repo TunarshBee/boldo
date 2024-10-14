@@ -10,7 +10,7 @@ export function Home() {
           Thoughts and words{" "}
         </h3>
       </div>
-      <div className="flex flex-col md:flex-row gap-6 justify-between items-center mb-[72px]">
+      <div className="flex flex-col lg:flex-row gap-6 justify-between items-center mb-[72px]">
         <Image src="/images/blog-img.png" alt="hero" width={493} height={423} />
         <div className="max-w-[555px]">
           <div className="flex gap-3">

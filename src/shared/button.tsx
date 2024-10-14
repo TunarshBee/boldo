@@ -3,14 +3,12 @@ import clsx from 'clsx';
 
 type ButtonProps = {
   text: string;
-  bgColor: string;
   color: string;
 } & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 export function Button({
   text,
   color,
-  bgColor,
   className,
   ...props
 }: ButtonProps) {
@@ -22,7 +20,6 @@ export function Button({
       )}
       style={{
         color: color,
-        backgroundColor: bgColor,
       }}
       {...props}
     >

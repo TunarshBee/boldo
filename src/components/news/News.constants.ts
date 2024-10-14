@@ -1,4 +1,14 @@
-import { Author1, Author2, Author3, News1, News2, News3, News4, News5, News6 } from "@/public";
+import {
+  Author1,
+  Author2,
+  Author3,
+  News1,
+  News2,
+  News3,
+  News4,
+  News5,
+  News6,
+} from "@/public";
 
 export const NewsData = [
   {
@@ -6,7 +16,7 @@ export const NewsData = [
     title: "Pitch termsheet backing validation focus release.",
     date: "November 22, 2021",
     author: "Chandler Bing",
-        authorImg: Author1,
+    authorImg: Author1,
   },
   {
     img: News2,
@@ -14,7 +24,7 @@ export const NewsData = [
       "Seed round direct mailing non-disclosure agreement graphical user interface rockstar.",
     date: "November 22, 2021",
     author: "Rachel Green",
-        authorImg: Author2,
+    authorImg: Author2,
   },
   {
     img: News3,
@@ -22,7 +32,7 @@ export const NewsData = [
       "Beta prototype sales iPad gen-z marketing network effects value proposition",
     date: "November 22, 2021",
     author: "Monica Geller",
-        authorImg: Author3,
+    authorImg: Author3,
   },
   {
     img: News4,

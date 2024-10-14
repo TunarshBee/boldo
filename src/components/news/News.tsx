@@ -1,7 +1,7 @@
 import Image, { StaticImageData } from "next/image";
 import React from "react";
 import { Button } from "@/src/components";
-import { NewsData } from "@/src/constants";
+import { NewsData } from "./News.constants";
 
 function NewsCard({
   latestNews: { img, title, date, author, authorImg },
@@ -41,8 +41,8 @@ function NewsCard({
 
 export function News() {
   return (
-    <section className="w-full container-px pb-[124px]">
-      <div className="container-w mx-auto flex flex-col items-center gap-[40px]">
+    <section className="w-full container-side-spacing pb-[124px]">
+      <div className="container mx-auto flex flex-col items-center gap-[40px]">
         <h3 className="max-w-[842px] self-start text-[35px] md:text-[48px] leading-normal md:leading-[72px] font-manrope font-normal">
           Latest News
         </h3>
@@ -53,10 +53,9 @@ export function News() {
           ))}
         </div>
         <Button
-          bgColor="transparent"
           color="#000"
           text="Load more"
-          className="border-primary border-2"
+          className="bg-transparent border-primary border-2"
         />
       </div>
     </section>

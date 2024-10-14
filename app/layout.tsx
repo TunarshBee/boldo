@@ -15,7 +15,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: 'Tonitech',
+  title: 'Boldo',
   description: 'Tonitech Assessment',
 };
 

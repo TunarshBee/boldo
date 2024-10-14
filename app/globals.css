@@ -15,19 +15,11 @@ body {
 }
 
 @layer utilities {
-  .container-px {
+  .container {
+    @apply w-full max-w-[90rem];
+  }
+
+  .container-side-spacing {
     @apply px-6 lg:px-12;
-  }
-
-  .container-w {
-    @apply w-full max-w-[80rem];
-  }
-
-  .custom__scroll::-webkit-scrollbar-thumb {
-    @apply bg-grey rounded-[50px];
-  }
-  
-  .custom__scroll::-webkit-scrollbar-thumb:hover {
-    @apply bg-grey;
   }
 }
