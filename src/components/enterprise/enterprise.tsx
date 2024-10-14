@@ -11,7 +11,7 @@ export function Enterprise() {
         <form className="flex flex-col md:flex-row justify-center items-center gap-[24px]">
           <input
             placeholder="Your email address"
-            className="text-[20px] px-[32px] py-[12px] bg-white text-black rounded-[50px] min-w-[370px]"
+            className="text-[20px] px-[32px] py-[12px] bg-white text-black rounded-[50px] max-w-[80%] md:min-w-[370px]"
           />
           <Button
             type="submit"

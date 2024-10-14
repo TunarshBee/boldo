@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
+import { News } from "../news/News";
+import { Enterprise } from "../enterprise/enterprise";
 
-export function Home() {
+const Home = () => {
   return (
     <>
       <div className="flex flex-col items-center gap-6 mb-[40px] md:mb-[65px]">
@@ -38,6 +40,10 @@ export function Home() {
         </div>
       </div>
       <hr className="border-t border-primary mb-14 md:mb-[95px]" />
+      <News />
+      <Enterprise />
     </>
   );
-}
+};
+
+export default Home;

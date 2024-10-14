@@ -44,7 +44,7 @@ export function MobileNavigation({
   return (
     <div
       ref={menuRef}
-      className={`absolute top-16 right-0 w-2/6 bg-primary rounded-md lg:hidden transition-transform duration-300 ${
+      className={`absolute top-16 right-0 w-3/6 bg-primary rounded-md lg:hidden transition-transform duration-300 ${
         isOpen ? "translate-y-0" : "-translate-y-full"
       }`}
     >
